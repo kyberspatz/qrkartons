@@ -1,8 +1,8 @@
 <?php
 
 $uniqid = uniqid();
-$text = $_SERVER['REQUEST_URI']."?karton=". $uniqid;
-define("QRTEXT", $_SERVER['REQUEST_URI']."?karton=". $uniqid);
+$yourserver = "http://".$_SERVER['HTTP_HOST'].substr($_SERVER['REQUEST_URI'],0,strrpos($_SERVER['REQUEST_URI'],"/")+1); // or change it to https://yourservername.com/foldername/
+define("QRTEXT", $yourserver."index.php?karton=". $uniqid);
 define("QRUNIQID", $uniqid);
 
 include 'phpqrcode/qrlib.php';
@@ -20,7 +20,7 @@ $pixel_size = 10;
 $frame_size = 10;
   
 // Generates QR Code and Stores it in directory given
-QRcode::png($text, $file, $ecc, $pixel_size, $frame_size);
+QRcode::png(QRTEXT, $file, $ecc, $pixel_size, $frame_size);
 file_put_contents("kartons/".$uniqid.".txt","");
   
 // Displaying the stored QR code from directory
