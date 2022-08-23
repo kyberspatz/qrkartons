@@ -1,0 +1,1 @@
+<p style="background:white;padding:1em;border-radius:20px;"><a href="liste.php">Liste anzeigen</a> | <a href="volltextsuche.php">Volltextsuche</a> | <a href="qrmake.php">QR-Code erstellen</a></p>

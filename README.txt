@@ -1,3 +1,32 @@
+Mit dieser Software kannst du QR-Codes für deine Kartons / Umzugskartons erstellen. Jeder QR-Code verweist auf diese Seite; mit einem Scan des QR-Codes wird dir dann der Inhalt des Kartons aufgelistet. Den Inhalt kannst du hier in der Software bearbeiten.
+
+Dieser Software braucht SCHREIBRECHTE!
+
+1. Öffne setup.php
+	-> Alle benötigten Daten werden geladen
+	-> Alle benötigten Ordner werden erstellt
+	
+liste.php
+	-> zeigt dir deine erstellten QR-Codes an
+	-> du kannst hier QR-Codes auswählen, um den Inhalt der Kisten zu editieren
+	
+volltextsuche.php
+	-> Findet Items, die du eingegeben hast
+	
+QR-Code erstellen
+	-> erstellt einen QR-Code mit einer zufälligen ID.
+
+Kartons löschen
+	-> das ist aktuell noch nicht vorgesehen. Du findest die Kartons in folgenden Ordnern und musst die Dateien per Hand löschen.
+		/images/
+		/kartons/
+		
+Du findest die Software gut? Erzähl davon. Gib die Software weiter.
+Du findest die Software scheiße? Schreib sie um, mach was Eigenes raus.
+
+Diese Software ist aktuell nur eine Skizze. Verwendung auf eigene Gefahr.
+
+Lizenz:
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
