@@ -11,6 +11,7 @@
 	</head>
 <?php
 include("navi.php");
+if(!is_dir("kartons/")){header("Location: setup.php");exit;}
 
 $ordner = "kartons/";
 $erlaubte_dateien = array_slice(scandir($ordner),2);
