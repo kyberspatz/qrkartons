@@ -6,6 +6,8 @@ Dieser Software braucht SCHREIBRECHTE!
 	-> Alle benötigten Daten werden geladen
 	-> Alle benötigten Ordner werden erstellt
 	
+2. Lösche setup.php	
+	
 liste.php
 	-> zeigt dir deine erstellten QR-Codes an
 	-> du kannst hier QR-Codes auswählen, um den Inhalt der Kisten zu editieren
