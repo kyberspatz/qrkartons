@@ -1,4 +1,5 @@
 <?php
+include("_header.php");
 include("navi.php");
 $qr_ordner = "images/";
 $qrdateien = array_slice(scandir($qr_ordner),2);

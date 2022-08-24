@@ -1,4 +1,5 @@
 <?php
+include("_header.php");
 include("navi.php");
 
 //Danke an https://werner-zenk.de/php/den_inhalt_aller_textdateien_nach_einem_suchbegriff_durchsuchen.php
